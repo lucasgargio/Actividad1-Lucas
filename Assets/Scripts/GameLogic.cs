@@ -5,7 +5,7 @@ public class GameLogic : MonoBehaviour
 {
     public void EndGame()
     {
-        // Cargar la escena de "GameOverScene"
+        // Cargar la escena de "FinDelJuego"
         SceneManager.LoadScene("FinDelJuego");
     }
 

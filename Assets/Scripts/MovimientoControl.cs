@@ -7,8 +7,8 @@ public class MovimientoControl : MonoBehaviour
     public float factorGiro = 1.0f; // Factor de ajuste para la velocidad de giro
     public float factorAvance = 1.0f; // Factor de ajuste para la velocidad de avance
 
-    public float velocidadGiroBase = 200.0f; // Velocidad de giro base (grados por segundo)
-    public float velocidadDesplazamientoBase = 5.0f; // Velocidad de avance base (unidades por segundo)
+    public float velocidadGiroBase = 200.0f; // Velocidad de giro base
+    public float velocidadDesplazamientoBase = 5.0f; // Velocidad de avance base
 
     private CharacterController controlador; // Referencia al Character Controller
 
